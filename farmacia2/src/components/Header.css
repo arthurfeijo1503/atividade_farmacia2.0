@@ -1,0 +1,53 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff; /* Branco */
+    padding: 15px 20px;
+    border-bottom: 2px solid #e23e57; /* Vermelho escuro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.logo img {
+    border-radius: 10px; /* Arredondamento na imagem do logo */
+}
+
+.farmacia {
+    color: #ce1f3a; /* Vermelho escuro */
+    font-size: 50px; /* Tamanho maior para o título */
+    margin: 0 20px; /* Espaçamento ao redor do título */
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    color: #ffffff; /* Rosa claro */
+    margin-right: 20px; /* Espaçamento à direita */
+    cursor: pointer; /* Cursor em forma de ponteiro */
+    font-size: 20px; /* Tamanho maior para o título "Home" */
+    font-weight: bold; /* Deixa o texto em negrito */
+    transition: color 0.3s; /* Transição suave para a cor */
+}
+
+.home:hover {
+    color: #ce1f3a; /* Muda para vermelho escuro ao passar o mouse */
+}
+
+.button {
+    background-color: #e23e57; /* Vermelho */
+    color: #ffffff; /* Branco */
+    padding: 12px 20px; /* Tamanho maior */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Tamanho de fonte maior */
+    transition: background-color 0.3s, transform 0.2s; /* Transição suave */
+}
+
+.button:hover {
+    background-color: #ce1f3a; /* Vermelho escuro ao passar o mouse */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+}

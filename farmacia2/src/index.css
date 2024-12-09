@@ -1,0 +1,7 @@
+*{
+  color: #ce1f3a;
+  background-color:#ffffff;
+}
+html, body, #root{
+  min-height: 100vh;
+}

@@ -1,0 +1,46 @@
+:root {
+    --cor-1: #e23e57; /* Vermelho */
+    --cor-2: #ffffff; /* Branco */
+    --cor-3: #ffffff; /* Branco */
+    --cor-4: #ce1f3a; /* Vermelho escuro */
+    --cor-5: #e6e6e6; /* Cinza claro */
+    --cor-6: #ef97a4; /* Rosa claro */
+  }
+  
+  /* Container principal do Body */
+  .container {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--cor-5); /* Cinza claro */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 20px; /* Margem ao redor do container */
+  }
+  
+  /* Estilo do título */
+  h2 {
+    color: var(--cor-1); /* Vermelho para o título */
+    margin-bottom: 15px; /* Espaçamento abaixo do título */
+  }
+  
+  /* Estilo do texto sobre a inauguração */
+  .horario {
+    font-size: 18px;
+    color: var(--cor-4); /* Vermelho escuro para o texto */
+    margin: 10px 0; /* Espaçamento vertical */
+  }
+  
+  /* Seção das camisetas */
+  .camisetas {
+    margin-top: 20px;
+    background-color: var(--cor-6); /* Rosa claro para o fundo */
+    padding: 15px;
+    border-radius: 8px; /* Bordas arredondadas */
+  }
+  
+  /* Estilo da imagem das camisetas */
+  .imgCamisetas {
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-top: 10px; /* Espaçamento acima da imagem */
+  }
+  
